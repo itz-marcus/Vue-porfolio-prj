@@ -2,7 +2,7 @@
     <img src="https://itz-marcus.github.io/Project_images/3rd_page_clear.png" alt="backgrounds" loading="lazy">
     <div>
         <div id='timeline-pos'>
-                <div id="grid" class="container text-center">
+                <!-- <div id="grid" class="container text-center">
                         <div id="grid-space" class="row row-cols-3">
                             <div class="col" id='font'>
                                     Graduated high school at Cape Academy of Math’s Science and Technology.
@@ -10,21 +10,20 @@
                                     <b>2017-2021</b>
                             </div>
 
-                            <div class="col"></div>
+                            <div id='col-size' class="col"></div>
                             
                             <div class="col"></div>
                             
                             <div class="col"></div>
                             
-                            <div class="col"></div>
+                            <div id='col-size' class="col"></div>
 
                             <div class="col" id='font'>
                                     Studying Web Development & UI / UX Design at Life Choices Academy...
                                 <br>
                                     <b>2024-...</b>
                             </div>
-
-                            
+                                
                             <div class="col" id='font'>
                                     <br> 
                                     Worked as a Teacher Assistant and Administrator at Parkhurst Primary School. 
@@ -32,7 +31,7 @@
                                     <b>2022-2023</b>   
                                 </div>
 
-                            <div class="col"></div>
+                            <div id='col-size' class="col"></div>
                                 
                             <div class="col">
                                 <button>Download CV</button>
@@ -42,6 +41,21 @@
                         </div>
                         <div >
                             <img src="https://itz-marcus.github.io/Project_images/time-line.png" class="timeline" alt="">
+                        </div> -->
+                        <div class="col" id='font'>
+                                Graduated high school at Cape Academy of Math’s Science and Technology.
+                                <br>
+                                <b>2017-2021</b>
+                        </div>
+                        <div class="col2" id='font'>
+                                Studying Web Development & UI / UX Design at Life Choices Academy...
+                                <br>
+                                <b>2024-...</b>
+                        </div>
+                        <div class="col" id='font'>
+                                Worked as a Teacher Assistant and Administrator at Parkhurst Primary School. 
+                                <br> 
+                                <b>2022-2023</b>   
                         </div>
         </div>
                     
@@ -67,7 +81,7 @@ button{
 #grid{
     width: 80vw;
 }  
-#grid b{
+b{
     color: white;
 }  
 #grid-space{
@@ -92,5 +106,14 @@ img[alt='backgrounds']{
     margin-left: auto;
     margin-right:auto;
     object-fit: contain;
+}
+#col-size{
+width: 100px;
+}
+.col{
+left: 0;
+}
+.col2{
+left: 50%;
 }
 </style>
