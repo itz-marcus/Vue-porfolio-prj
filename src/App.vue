@@ -55,7 +55,7 @@ font-size: 1vw;
   margin-left: 1.2%;
   margin-right: 1.2%;
   width: auto;
-  height: 85vh;
+  height: 84vh;
   backdrop-filter:blur(px)
 }
 
