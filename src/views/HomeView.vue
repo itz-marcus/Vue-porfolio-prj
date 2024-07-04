@@ -4,11 +4,11 @@
   <img src="https://itz-marcus.github.io/Project_images/Logo.png" alt="logo" loading="lazy">
   <div class="home">
     <div>
-        <div>
-          <h1  id="home-title">Hi,<br> I'm <br><b  class="highlight">Marcus</b></h1>
+        <div id="title">
+          <h1 id="home-title">Hi,<br> I'm <br><p>Marcus</p></h1>
         </div>
-        <div>
-          <p  class="sub-title">An Aspiring Web Developer!</p>
+        <div id="sub">
+          <p class="sub-title">An Aspiring Web Developer!</p>
         </div>
         <div id="socials">
           <a href="https://github.com/itz-marcus" target="_blank"><i class="lab la-github"></i></a>
@@ -39,35 +39,47 @@ export default {
 </script>
 <style scoped>
 
-@media screen and (max-width:600px){
+@media screen and (max-width:750px){
   #border h1{
-  color: blue;
-  font-size: 500px;
- }
- img[alt='logo']{
-   width: 75px;
-   object-fit: contain;
+    font-size: 70px;
+    margin-top:7vh ;
   }
+  #home-title p{
+    font-size: 70px;  
+  }
+  img[alt='logo']{
+    width: 80px;
+    object-fit: contain;
+    height: 7vh;
+    background-repeat: no-repeat; 
+    position: absolute;
+    z-index: -1;
+    top: 5%;
+    left: 40%;
+  }
+  #sub .sub-title{
+    font-size: 4vw;
+    width: 52vw;
+  }
+  .effects img[alt='banner']{
+    right: 9vw;
 }
-
+}
 #home-title{
     margin-top: 10%;
     width: 40vw;
-    
-}  
-.highlight{
-    color:rgb(255, 199, 1);
-    font-size: 9vw;
-}
-#border h1{
-    font-size: 9vw;
+    font-size: 10vw;
     margin-left: 10%;
     font-weight:bolder;
     color: white;
     line-height: 0.95;
-    margin-bottom: 0px;
+    margin-bottom: 0px;   
+}  
+h1 p{
+    color:rgb(255, 199, 1);
+    font-size: 10vw;
 }
-#border .sub-title{
+.sub-title{
     font-size: 2vw;
     margin-left: 10%;
     font-weight:bolder;
@@ -94,7 +106,7 @@ i:hover{
     transform: scale(120%);
 }
 img[alt='bgimage']{
-    width: 980px;
+    width: 985px;
     height: auto;
     background-repeat: no-repeat;
     opacity: 0.5; 
@@ -111,10 +123,9 @@ img[alt='logo']{
     position: absolute;
     z-index: -1;
     top: 5%;
-    /* left: 46.6%; */
     left: 46%;
-    margin-left: auto;
-    margin-right:auto;
+    /* margin-left: auto;
+    margin-right:auto; */
 
 }
 img[alt='banner']{
@@ -123,7 +134,7 @@ img[alt='banner']{
     position: absolute;
     z-index: -1;
     top: 5vh;
-    right: 5.5vw;
+    right: 5vw;
     margin: 2px;
 }
 img[alt='globe']{
