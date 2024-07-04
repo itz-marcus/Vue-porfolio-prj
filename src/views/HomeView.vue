@@ -41,20 +41,20 @@ export default {
 
 @media screen and (max-width:750px){
   #border h1{
-    font-size: 70px;
+    font-size: 12vw;
     margin-top:7vh ;
   }
   #home-title p{
-    font-size: 70px;  
+    font-size: 12vw;  
   }
   img[alt='logo']{
-    width: 80px;
+    width: 15vw;
     object-fit: contain;
     height: 7vh;
     background-repeat: no-repeat; 
     position: absolute;
     z-index: -1;
-    top: 5%;
+    top: 3vw;
     left: 40%;
   }
   #sub .sub-title{
