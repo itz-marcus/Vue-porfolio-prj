@@ -20,7 +20,7 @@ export default {
 }
 </script>
 <style>
-    img[alt='backgrounds2']{
+img[alt='backgrounds2']{
     height: 75vh;
     top:10%;
     background-repeat: no-repeat;
