@@ -20,8 +20,8 @@
         <div class="effects">
           <img src="https://itz-marcus.github.io/Project_images/PoloBanner.gif" alt="banner" loading="lazy">   
           <img src="https://itz-marcus.github.io/Project_images/globe.gif" alt="globe" loading="lazy">  
-          <img src="https://itz-marcus.github.io/Project_images/media_controller.png" alt="m-player" loading="lazy">
-          <img src="https://itz-marcus.github.io/Project_images/visualizer.gif" alt="visualizer" loading="lazy">
+          <img src="https://itz-marcus.github.io/Project_images/decore-txt.png" alt="m-player" loading="lazy">
+          <img src="https://itz-marcus.github.io/Project_images/Compact-Disc-Logo.png" alt="disc-imp" loading="lazy">
         </div> 
   </div>
 </template>
@@ -68,7 +68,7 @@ export default {
 #home-title{
     margin-top: 10%;
     width: 40vw;
-    font-size: 10vw;
+    font-size: 8vw;
     margin-left: 10%;
     font-weight:bolder;
     color: white;
@@ -77,7 +77,7 @@ export default {
 }  
 h1 p{
     color:rgb(255, 199, 1);
-    font-size: 10vw;
+    font-size: 8vw;
 }
 .sub-title{
     font-size: 2vw;
@@ -138,29 +138,29 @@ img[alt='banner']{
     margin: 2px;
 }
 img[alt='globe']{
-    height: 10vh;
+    height: 9vh;
     background-repeat: no-repeat; 
     position: absolute;
     z-index: -1;
-    top:62vh;
-    right: 3.5vw;
-    margin: 2px;
+    top:62.5vh;
+    right: 3vw;
+    margin-right: 143px;
 }
-img[alt='visualizer']{
-    height: 17vh;
+img[alt='disc-imp']{
+    height: 11vh;
     background-repeat: no-repeat; 
     position: absolute;
     z-index: -1;
-    top:58vh;
-    right: 6vw;
-    margin-right: 10px;
+    top: 61.5vh;
+    right: 2.6vw;
+    margin-right: 0px;
 }
 img[alt='m-player']{
     height: 10vh;
     background-repeat: no-repeat; 
     position: absolute;
     z-index: -1;
-    top:73vh;
+    top:72.5vh;
     right: 3.5vw;
     margin: 2px;
 }

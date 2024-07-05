@@ -12,8 +12,7 @@
 <div></div>
 <div id="end-space">
     <form id="Style"
-    action="https://formspree.io/f/xvoedppj"
-method="POST" 
+    action="https://formspree.io/f/xblrjpoj" method="POST" 
     >
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -30,6 +29,7 @@ method="POST"
           name="message"></textarea>
         </div>
         <button id="Button-style" type="submit" class="btn btn-primary">Submit</button>
+        <button id="Button-style2" type="reset" class="btn btn-primary">Clear</button>
       </form>
 </div>
 </section>
@@ -66,12 +66,11 @@ b{
 #End-title-b{
     width: 40%;    
 }
-
 #End-title{
-    font-size: 9vw;
+    font-size: 8vw;
     width: 80%;
     line-height: 0.95;
-    margin-top: 10%;
+    margin-top: 4%;
     margin-left:12%
 }
 #End-title b{
@@ -81,12 +80,36 @@ b{
     color: white;
 }
 #Button-style{
+    border: 2px solid rgb(255, 199, 1);
+    background-color: rgb(255, 199, 1);
+    color: black;
+    font-weight: bold;
+    width: 8vw;
+    border-radius: 0px;
+    border: 0px; 
+    transition: 0.3s;
+}
+#Button-style2{
+    border: 2px solid rgb(255, 199, 1);
     background-color: rgb(255, 199, 1);
     color: black;
     font-weight: bold;
     width: 8vw;
     border-radius: 0px;
     border: 0px;
+    margin-left: 8px;
+}
+#Button-style:hover{
+    box-shadow: 3px 4px 0px rgb(255, 199, 1);
+    border: 2px solid rgb(255, 199, 1);
+    background-color:black ;
+    color: rgb(255, 199, 1);
+}
+#Button-style2:hover{
+    box-shadow: 3px 4px 0px rgb(255, 199, 1);
+    border: 2px solid rgb(255, 199, 1);
+    background-color:black ;
+    color: rgb(255, 199, 1);
 }
 #end-space{
     margin-top: 10%;

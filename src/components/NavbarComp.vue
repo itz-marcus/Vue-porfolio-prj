@@ -21,13 +21,13 @@ export default {
 <style scoped>
 /* -------- nav bar -------- */
 nav a {
-  margin: 6%;
+  /* margin: 6%; */
   font-weight: bold;
   color: white;
   text-decoration: none;
   rotate: -90deg;
   transition: 0.3s;
-  font-size: 2.4vh;
+  font-size: 2.3vh;
 }
 nav a:hover{
   color: rgb(255, 199, 1);
@@ -37,18 +37,18 @@ nav a.router-link-exact-active {
   color:rgb(255, 199, 1);
 }
 #navbar{
-    height: 73vh;
+    height: 72vh;
     display: flex;
     justify-content:space-evenly;
     flex-direction: column;
     gap: 5%;
-    width: 70px;
+    width: 40px;
+    margin-left: 1vw;
 }
 #nav3 {
     margin-bottom: 20%;
 }
 #nav5 {
-    margin-top: 65%;
-    margin-bottom: 10%;
+    margin-top: 100%;
 }
 </style>
