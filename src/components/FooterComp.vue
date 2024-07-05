@@ -2,10 +2,10 @@
     <div>
       <nav id="footer">
         <div>
-  <footer>
-      <div id="foot"><div class="cr">Copyright © {{ date()}} .POLO.WORKS. <br> by Marcus Adonis</div> </div>
-    </footer>
-</div>
+          <footer>
+            <div id="foot"><div class="cr">Copyright © {{ date()}} .POLO.WORKS. <br> by Marcus Adonis</div> </div>
+          </footer>
+        </div>
       </nav> 
     </div>
   </template>
@@ -22,7 +22,13 @@
 }
   </script>
   <style>
+  @media screen and (max-width:750px){
+.cr{
+  font-size: 14px;
+}
+}
     /* -------- footer -------- */
+    
 #foot{
     position: relative;
     border:solid 3px white;

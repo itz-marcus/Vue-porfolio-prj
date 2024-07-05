@@ -1,11 +1,11 @@
 <template>
   <div id="border">
     <div class="flexing">
-      <div>
+      <div id="d1">
         <navbar-comp>
         </navbar-comp>
       </div>
-      <div>
+      <div id="d2">
         <router-view/>
       </div>
     </div>
@@ -48,6 +48,7 @@ font-size: 1vw;
 .flexing{
   display: flex;
 }
+
 /* -------- border -------- */
 #border{
   border: solid 3px rgb(255, 199, 1);
