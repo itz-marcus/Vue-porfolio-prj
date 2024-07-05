@@ -19,7 +19,7 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 img[alt='backgrounds2']{
     height: 75vh;
     top:10%;
