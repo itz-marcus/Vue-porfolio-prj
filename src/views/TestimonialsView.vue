@@ -18,7 +18,7 @@ export default {
 </script>
 <style>
 img[alt='backgrounds2']{
-    height: 75vh;
+    height: 74vh;
     top:10%;
     background-repeat: no-repeat;
     opacity: 0.5; 
