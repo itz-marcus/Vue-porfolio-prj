@@ -4,7 +4,7 @@
         <div id="container">
           <div v-for ="project in projectData()" :key="project.name">
             <div id="Card">
-                <div  class="card" style="margin-top: 10%;border-radius: 0px; width: 17rem; height: 19vw; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
+                <div id="card-b" class="card" style="margin-top: 3vh;border-radius: 0px; width: 17rem; height: 18vw; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
                     <img id="card-cover" :src= 'project.image'  class="card-img-top" alt="...">
                     <div id="proj-b" class="card-body">
                         <h5 id="proj-t" class="card-title">{{project.name}}</h5>
@@ -36,12 +36,68 @@ export default {
 }
 </script>
 <style scoped>
+@media screen and (max-width:700px) and (min-width:351px){
+#card-b{
+    border-radius: 0px;
+    width: 17rem; height: 18vw;
+    background-color: rgba(0, 0, 0, 0.544);
+    color: white;
+    box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);
+    width: 130px !important;
+    height: 160px !important;
+    margin-top: 3vh !important;
+}
+#Card{
+    transition: 0.3s;
+    margin-left: 3vw;
+    height: 160px !important;
+}
+#proj-tx{
+    font-size: 7px !important; 
+}
+#card-cover{
+    height: 60px !important;
+}
+#proj-t{
+    font-size: 13px !important;
+    color: white;
+}
+#button{
+    font-size: 9px;
+}
+}
+@media screen and (max-width:350px){
+#card-b{
+    border-radius: 0px;
+    width: 17rem; 
+    height: 18vw ;
+    background-color: rgba(0, 0, 0, 0.544);
+    color: white;
+    box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);
+    width: 100px !important;
+    height: 160px !important;
+    margin-top: 14vh !important;
+}
+#proj-tx{
+    font-size: 7px !important; 
+}
+#card-cover{
+    height: 60px !important;
+}
+#proj-t{
+    font-size: 13px !important;
+    color: white;
+}
+#button{
+    font-size: 9px;
+}
+}
+
 #button{
     border: 2px solid rgb(255, 199, 1);
     background-color: rgb(255, 199, 1);
     color: black;
     font-weight: bold;
-    width: 7vw;
     border-radius: 0px;
     border: 0px; 
     transition: 0.3s;
@@ -55,6 +111,8 @@ export default {
 }
 #Card{
     transition: 0.3s;
+    margin-left: 3vw;
+    height: 18vw;
 }
 #Card:hover{
     box-shadow: 10px 10px 0px rgb(255, 199, 1);
@@ -66,7 +124,7 @@ img[alt='backgrounds2']{
     top:10%;
     background-repeat: no-repeat;
     opacity: 0.5; 
-    position: absolute;
+    position: fixed;
     z-index: -1;
     left: 15%;
     margin-left: auto;
@@ -74,7 +132,9 @@ img[alt='backgrounds2']{
     object-fit: contain;
 }
 #container{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #proj-b{
     background-color:transparent;
@@ -83,8 +143,8 @@ img[alt='backgrounds2']{
     font-size: 70%;
     color: white;
 }
-.card-cover{
-    height: 50%;
+#card-cover{
+    height: 7.5vw;
     width: 100%;
 }
 </style>

@@ -6,8 +6,12 @@
                 <div>
                     <img src="https://itz-marcus.github.io/Project_images/PFP.jpg" alt="pfp" loading="lazy">
                 </div>
-                    <h2>Hi! I'm <b>Marcus Adonis</b>, one who is passionate about <b>Design</b>, <b>Computing</b>, <b>Video</b> <b>gaming</b>, <b>Skateboarding</b> and <b>Cars</b>. I enjoy working with a <b>team</b>, because it allows for ideas to be shared and <b>promotes</b> better work flow<b>...</b><br>
+                <br>
+                  <h2>Hi! I'm <b>Marcus Adonis</b>, one who is passionate about <b>Design</b>, <b>Computing</b>, <b>Video</b> <b>gaming</b>, <b>Skateboarding</b> and <b>Cars</b>. I enjoy working with a <b>team</b>, because it allows for ideas to be shared and <b>promotes</b> better work flow<b>...</b><br>
                         I continuously aim to do my best, be creative and I have ideas that play <b>outside</b> <b>the</b> <b>box</b>.
+                    <br>
+                    <br>
+                        <b>Soft skills:</b> Team-player,Creativity 
                     <br>
                     <br>
                         <b>Hobbies:</b> Drawing, Skateboarding, Video games
@@ -21,6 +25,8 @@
                         <img src="https://itz-marcus.github.io/Project_images/CSS.png" alt="HTMLL">
                         <img src="https://itz-marcus.github.io/Project_images/Boot_Strap.png" alt="HTMLL">
                     </h2>
+                
+                    
     </div>
   </div>
   
@@ -31,6 +37,69 @@ export default {
 }
 </script>
 <style scoped>
+@media screen and (max-width:880px) and (min-width:411px ){
+
+  div h2 b {
+    color: rgb(255, 199, 1);
+    font-size: 14px !important;
+    width: 65vw;
+}
+h2{
+   font-size: 14px !important;
+}
+  img[alt='pfp']{
+    width: 290px !important;
+    left: 55%;
+    margin-left: auto;
+    margin-right:auto;
+    object-fit: contain;
+}
+.flexing2{
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    margin-top: 7%;
+    margin-left: 10%;
+
+}
+div h2 img{
+    height: 60px !important;
+}
+u{
+    font-size: 20px !important;
+}
+}
+@media screen and (max-width:410px){
+  div h2 b {
+    color: rgb(255, 199, 1);
+    font-size: 12px !important;
+    width: 65vw;
+}
+h2{
+   font-size: 12px !important;
+}
+  img[alt='pfp']{
+    width: 200px !important;
+    left: 55%;
+    margin-left: auto;
+    margin-right:auto;
+    object-fit: contain;
+}
+.flexing2{
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    margin-top: 7%;
+    margin-left: 10%;
+
+}
+div h2 img{
+    height: 60px !important;
+}
+u{
+    font-size: 15px !important;
+}
+}
 .flexing2{
     display: flex;
     width: 65%;
@@ -39,7 +108,7 @@ export default {
 
 }
 img[alt='pfp']{
-    width: 28vw;
+    width: 29vw;
     left: 15%;
     margin-left: auto;
     margin-right:auto;
@@ -59,6 +128,7 @@ img[alt='pfp']{
   h2 b {
     color: rgb(255, 199, 1);
     font-size: 1.3vw;
+    width: 65vw;
 }
   h2 img{
     height: 6vw;
@@ -78,4 +148,5 @@ img[alt='backgrounds']{
 u{
   font-size: 1.5vw;
 }
+
 </style>
