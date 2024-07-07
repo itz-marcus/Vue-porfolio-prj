@@ -5,8 +5,8 @@
         <section id="section">
             <div v-for ="testimonial in testimonialData()" :key="testimonial">
                 <div>
-                    <div id="Card" class="card" style="margin: 10%; border-radius: 0px; width: 200px; height: 17vw; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
-                        <!-- <img id="card-cover" :src= 'testimonial.image'  class="card-img-top" alt="..."> -->
+                    <div id="Card" class="card" style="margin: 10%; border-radius: 0px; width: 14vw; height: 30vw; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
+                        <img id="card-cover" :src= 'testimonial.image'  class="card-img-top" alt="...">
                         <div id="proj-b" class="card-body">
                             <h5 id="proj-t" class="card-title">{{testimonial.name}}</h5>
                             <p id="proj-tx" class="card-text">{{ testimonial.message }}</p>
@@ -40,14 +40,15 @@ export default {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    
+    justify-content: center;
+    margin-top: 4vw;
 }
 img[alt='backgrounds2']{
     height: 74vh;
     top:10%;
     background-repeat: no-repeat;
     opacity: 0.5; 
-    position: absolute;
+    position: fixed;
     z-index: -1;
     left: 15%;
     margin-left: auto;
@@ -64,20 +65,21 @@ img[alt='backgrounds2']{
 }
 .card{
     font-size: 20px;
+    margin-left: 0.6vw !important;
 }
 .card:hover{
     box-shadow: 4px 4px 0px rgb(255, 199, 1);
 }
 #card-cover{
     border-radius: opx;
-    width: 10vw;
+    width: 13.85vw;
     object-fit: contain;
 } 
 #proj-b{
     background-color:transparent;
 }
 #proj-tx{
-    font-size: 70%;
+    font-size: 0.8vw;
     color: white;
 }
 .card-cover{

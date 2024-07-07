@@ -17,11 +17,11 @@
         </div>
           
     </div>
-        <div class="effects">
-          <img src="https://itz-marcus.github.io/Project_images/PoloBanner.gif" alt="banner" loading="lazy">   
-          <img src="https://itz-marcus.github.io/Project_images/globe.gif" alt="globe" loading="lazy">  
-          <img src="https://itz-marcus.github.io/Project_images/decore-txt.png" alt="m-player" loading="lazy">
-          <img src="https://itz-marcus.github.io/Project_images/Compact-Disc-Logo.png" alt="disc-imp" loading="lazy">
+        <div id="effects" >
+          <img src="https://itz-marcus.github.io/Project_images/PoloBanner.gif" alt="banner" >   
+          <img src="https://itz-marcus.github.io/Project_images/globe.gif" alt="globe" >  
+          <img src="https://itz-marcus.github.io/Project_images/decore-txt.png" alt="m-player" >
+          <img src="https://itz-marcus.github.io/Project_images/Compact-Disc-Logo.png" alt="disc-imp">
         </div> 
   </div>
 </template>
@@ -39,13 +39,35 @@ export default {
 </script>
 <style scoped>
 
-@media screen and (max-width:750px){
+@media screen and (max-width:750px) and (min-width:406px) {
   #border h1{
-    font-size: 12vw;
+    font-size: 17vw;
     margin-top:7vh ;
   }
   #home-title p{
-    font-size: 12vw;  
+    font-size: 17vw;  
+  }
+  img[alt='logo']{
+    width: 15vw;
+    object-fit: contain;
+    background-repeat: no-repeat; 
+    left: 40%;
+  }
+  #sub .sub-title{
+    font-size: 4vw;
+    width: 52vw;
+  }
+  .effects img[alt='banner']{
+    right: 9vw;
+  }
+}
+@media screen and (max-width:405px){
+  #border h1{
+    font-size: 17vw;
+    margin-top:7vh ;
+  }
+  #home-title p{
+    font-size: 17vw;  
   }
   img[alt='logo']{
     width: 15vw;
@@ -57,12 +79,49 @@ export default {
     top: 3vw;
     left: 40%;
   }
+  img[alt='m-player']{
+    width: 93vw;
+    object-fit: contain;
+    background-repeat: no-repeat; 
+    position: absolute;
+    z-index: -1;
+    top:72.5vh;
+    right: 3.5vw;
+    margin: 2px;
+}
   #sub .sub-title{
     font-size: 4vw;
     width: 52vw;
   }
   .effects img[alt='banner']{
     right: 9vw;
+    width: 15vw;
+    object-fit: contain;
+  }
+}
+@media screen and (min-width:1550px){
+  #border h1{
+    font-size: 120px;
+    margin-top:7vh ;
+  }
+  #home-title p{
+    font-size: 120px;  
+  }
+  #sub .sub-title{
+    font-size: 32px;
+    width: 52vw;
+  }
+  img[alt='bgimage']{
+    width: 985px;
+    height: auto;
+    background-repeat: no-repeat;
+    opacity: 0.5; 
+    position: fixed;
+    z-index: -1;
+    left: 50vw;
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 }
 #home-title{
@@ -73,7 +132,7 @@ export default {
     font-weight:bolder;
     color: white;
     line-height: 0.95;
-    margin-bottom: 0px;   
+    margin-bottom: 0px;  
 }  
 h1 p{
     color:rgb(255, 199, 1);
