@@ -23,7 +23,9 @@
                         <b><u>Programming Skill-set</u></b> <br>  
                         <img src="https://itz-marcus.github.io/Project_images/HTML.png" alt="HTMLL">
                         <img src="https://itz-marcus.github.io/Project_images/CSS.png" alt="HTMLL">
+                        <img src="https://itz-marcus.github.io/Project_images/JS.png" alt="HTMLL">
                         <img src="https://itz-marcus.github.io/Project_images/Boot_Strap.png" alt="HTMLL">
+                        <img src="https://itz-marcus.github.io/Project_images/Vue.js_Logo.png" alt="HTMLL">
                     </h2>
                 
                     
@@ -63,7 +65,7 @@ h2{
 
 }
 div h2 img{
-    height: 60px !important;
+    height: 50px !important;
 }
 u{
     font-size: 20px !important;
@@ -94,7 +96,7 @@ h2{
 
 }
 div h2 img{
-    height: 60px !important;
+    height: 30px !important;
 }
 u{
     font-size: 15px !important;
