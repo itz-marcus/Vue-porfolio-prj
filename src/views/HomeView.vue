@@ -1,16 +1,16 @@
 <template>
   <router-view/>
   <img src="https://itz-marcus.github.io/Project_images/1st_page_clear.png" alt="bgimage" loading="lazy">
-  <img src="https://itz-marcus.github.io/Project_images/Logo.png" alt="logo" loading="lazy">
+  <img src="https://itz-marcus.github.io/Project_images/Logo.png" alt="logo" loading="lazy" data-aos="zoom-in" data-aos-duration="400">
   <div class="home">
     <div>
         <div id="title">
-          <h1 id="home-title">Hi,<br> I'm <br><p>Marcus</p></h1>
+          <h1 id="home-title" data-aos="fade-right" data-aos-duration="400">Hi,<br> I'm <br><p>Marcus</p></h1>
         </div>
         <div id="sub">
-          <p class="sub-title">An Aspiring Web Developer!</p>
+          <p class="sub-title" data-aos="fade-right">An Aspiring Web Developer!</p>
         </div>
-        <div id="socials">
+        <div id="socials" data-aos="fade-right" data-aos-duration="400">
           <a href="https://github.com/itz-marcus" target="_blank"><i class="lab la-github"></i></a>
           <a href="https://za.pinterest.com/marcusadonis5/my-saves/" target="_blank"><i class="lab la-pinterest-p"></i></a>
           <a href="https://www.linkedin.com/in/marcus-adonis-9a28512b6/" target="_blank"><i class="lab la-linkedin-in"></i></a>
@@ -18,10 +18,10 @@
           
     </div>
         <div id="effects" >
-          <img src="https://itz-marcus.github.io/Project_images/PoloBanner.gif" alt="banner" >   
-          <img src="https://itz-marcus.github.io/Project_images/globe.gif" alt="globe" >  
-          <img src="https://itz-marcus.github.io/Project_images/decore-txt.png" alt="m-player" >
-          <img src="https://itz-marcus.github.io/Project_images/Compact-Disc-Logo.png" alt="disc-imp">
+          <img src="https://itz-marcus.github.io/Project_images/PoloBanner.gif" alt="banner" data-aos="fade-left" data-aos-duration="400">   
+          <img src="https://itz-marcus.github.io/Project_images/globe.gif" alt="globe" data-aos="fade-left" data-aos-duration="400">  
+          <img src="https://itz-marcus.github.io/Project_images/decore-txt.png" alt="m-player" data-aos="fade-left" data-aos-duration="400">
+          <img src="https://itz-marcus.github.io/Project_images/Compact-Disc-Logo.png" alt="disc-imp" data-aos="fade-left" data-aos-duration="400">
         </div> 
   </div>
 </template>

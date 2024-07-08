@@ -3,15 +3,15 @@
     <img src="https://itz-marcus.github.io/Project_images/2nd_page_clear.png" alt="backgrounds" loading="lazy">
     <div class="flexing2">
            <!-- code here -->
-                <div>
-                    <img src="https://itz-marcus.github.io/Project_images/PFP.jpg" alt="pfp" loading="lazy">
+                <div data-aos="fade-right" data-aos-duration="400">
+                    <img src="https://itz-marcus.github.io/Project_images/PFP.jpg" alt="pfp" loading="lazy" >
                 </div>
                 <br>
-                  <h2>Hi! I'm <b>Marcus Adonis</b>, one who is passionate about <b>Design</b>, <b>Computing</b>, <b>Video</b> <b>gaming</b>, <b>Skateboarding</b> and <b>Cars</b>. I enjoy working with a <b>team</b>, because it allows for ideas to be shared and <b>promotes</b> better work flow<b>...</b><br>
+                  <h2 data-aos="fade-left" data-aos-duration="400">Hi! I'm <b>Marcus Adonis</b>, one who is passionate about <b>Design</b>, <b>Computing</b>, <b>Video</b> <b>gaming</b>, <b>Skateboarding</b> and <b>Cars</b>. I enjoy working with a <b>team</b>, because it allows for ideas to be shared and <b>promotes</b> better work flow<b>...</b><br>
                         I continuously aim to do my best, be creative and I have ideas that play <b>outside</b> <b>the</b> <b>box</b>.
                     <br>
                     <br>
-                        <b>Soft skills:</b> Team-player,Creativity 
+                        <b>Soft skills:</b> Team-player, Creativity 
                     <br>
                     <br>
                         <b>Hobbies:</b> Drawing, Skateboarding, Video games

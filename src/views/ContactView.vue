@@ -1,8 +1,8 @@
 <template lang="">
     <div class="contact">
         <img src="https://itz-marcus.github.io/Project_images/6th_page_clear.png" alt="backgrounds3" loading="lazy">
-    <section class="d-flex ">
-        <div id="End-title-b">
+    <section class="d-flex " >
+        <div id="End-title-b" data-aos="fade-right" data-aos-duration="400">
             <h2 id="End-title">Let's get in <b>touch!</b></h2>
             <div id="contact-info1">
             <p id="contact-space"><b>Contact me</b></p>
@@ -10,12 +10,12 @@
         </div>
         </div>
         
-        <div id="contact-info2">
+        <div id="contact-info2" data-aos="fade-right" data-aos-duration="400">
             <br>
             <p id="contact-space"><b>Contact me</b></p>
-            <p id="contactinfo-space">Email: marcusadonis5@gmail.com <br> Number: +2782 929 5821 <br> Location: Mitchell's Plain</p>
+            <p id="contactinfo-space" >Email: marcusadonis5@gmail.com <br> Number: +2782 929 5821 <br> Location: Mitchell's Plain</p>
         </div>
-        <div id="end-space">
+        <div id="end-space" data-aos="fade-left" data-aos-duration="400">
             <form id="Style" action="https://formspree.io/f/xblrjpoj" method="POST">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Name</label>

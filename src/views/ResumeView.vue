@@ -4,7 +4,7 @@
         <div id='timeline-pos'>
                 <div id="grid" class="container text-center">
                         <div id="grid-space" class="row row-cols-3">
-                            <div class="col" id='font'>
+                            <div class="col" id='font' data-aos="fade-right" data-aos-duration="400">
                                     Graduated high school at Cape Academy of Math’s Science and Technology.
                                 <br>
                                     <b>2017-2021</b>
@@ -18,13 +18,13 @@
                             
                             <div id='col-size' class="col"></div>
 
-                            <div class="col" id='font'>
+                            <div class="col" id='font' data-aos="fade-left" data-aos-duration="400">
                                     Studying Web Development & UI / UX Design at Life Choices Academy...
                                 <br>
                                     <b>2024-...</b>
                             </div>
                                 
-                            <div class="col" id='font'>
+                            <div class="col" id='font' data-aos="fade-right" data-aos-duration="400">
                                     <br> 
                                     Worked as a Teacher Assistant and Administrator at Parkhurst Primary School. 
                                     <br> 

@@ -3,7 +3,7 @@
         
         <img src="https://itz-marcus.github.io/Project_images/5th_page_clear.png" alt="backgrounds2" loading="lazy">
         <section id="section">
-            <div v-for ="testimonial in testimonialData()" :key="testimonial">
+            <div v-for ="testimonial in testimonialData()" :key="testimonial" data-aos="zoom-in" data-aos-duration="400">
                 <div>
                     <div id="Card" class="card" style="margin: 10%; border-radius: 0px; width: 14vw; height: 30vw; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
                         <img id="card-cover" :src= 'testimonial.image'  class="card-img-top" alt="...">
@@ -60,7 +60,7 @@ img[alt='backgrounds2']{
 }
 #Card:hover{
     box-shadow: 10px 10px 0px rgb(255, 199, 1);
-    background-color: black;
+    background-color: black !important;
     transform: scale(1.02);
 }
 .card{

@@ -2,8 +2,8 @@
     <div>
         <img src="https://itz-marcus.github.io/Project_images/4th_page_clear.png" alt="backgrounds2" loading="lazy">
         <div id="container">
-          <div v-for ="project in projectData()" :key="project.name">
-            <div id="Card">
+          <div v-for ="project in projectData()" :key="project.name" data-aos="zoom-in" data-aos-duration="400">
+            <div id="Card" >
                 <div id="card-b" class="card" style="margin-top: 3vh;border-radius: 0px; width: 17rem; height: 18vw; background-color: rgba(0, 0, 0, 0.544);color: white;box-shadow:0px 1px 1px 4px  rgb(255, 199, 1);" >
                     <img id="card-cover" :src= 'project.image'  class="card-img-top" alt="...">
                     <div id="proj-b" class="card-body">
